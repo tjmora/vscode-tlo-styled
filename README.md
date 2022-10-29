@@ -1,5 +1,7 @@
 # vscode-tlo-styled
 
+This is extension is available at the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=tjmora.vscode-tlo-styled).
+
 Syntax highlighting and IntelliSense for [TLO.styled](https://github.com/tjmora/template-literal-object).
 
 Uses a CSS grammar built on top of [language-sass](https://github.com/atom/language-sass) and [language-css](https://github.com/atom/language-css).
