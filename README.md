@@ -1,14 +1,6 @@
-# vscode-styled-components
+# vscode-tlo-styled
 
-Styled Components has moved! Make sure you're downloading it from here:
-https://marketplace.visualstudio.com/items?itemName=styled-components.vscode-styled-components. The `jpoissonnier.vscode-styled-components ` version will recieve no more updates.
-
-[![](https://vsmarketplacebadge.apphb.com/version-short/styled-components.vscode-styled-components.svg)](https://marketplace.visualstudio.com/items?itemName=styled-components.vscode-styled-components)
-<a href="https://discord.gg/hfGUrbrxaU">![Discord](https://img.shields.io/discord/818449605409767454?logo=discord)</a>
-
-Syntax highlighting and IntelliSense for [styled-components](https://github.com/styled-components/styled-components).
-
-![Syntax highlighting in action](demo.gif)
+Syntax highlighting and IntelliSense for [TLO.styled](https://github.com/tjmora/template-literal-object).
 
 Uses a CSS grammar built on top of [language-sass](https://github.com/atom/language-sass) and [language-css](https://github.com/atom/language-css).
 
@@ -17,12 +9,10 @@ Uses a CSS grammar built on top of [language-sass](https://github.com/atom/langu
 Inside VSCode, press `Ctrl+P`, and enter:
 
 ```
-ext install vscode-styled-components
+ext install vscode-tlo-styled
 ```
 
 It should be the top result.
-
-[[Source](https://marketplace.visualstudio.com/items?itemName=jpoissonnier.vscode-styled-components)]
 
 ## Features
 
@@ -32,7 +22,7 @@ It should be the top result.
 
 ## Usage
 
-The styled-components extension adds highlighting and IntelliSense for styled-component template strings in JavaScript and TypeScript. See [plugin configuration](https://github.com/Microsoft/typescript-styled-plugin#configuration) for information on configuring the linter and other language features.
+The styled-components extension adds highlighting and IntelliSense for the template literal objects as set by TLO.styled static method in JavaScript and TypeScript. See [plugin configuration](https://github.com/Microsoft/typescript-styled-plugin#configuration) for information on configuring the linter and other language features.
 
 ## Raising an issue
 
@@ -41,15 +31,15 @@ Issues with the most votes tend to be prioritised.
 
 ## Contributing
 
-see [Contributing](./CONTRIBUTING.md)
+This is a minor fork of [vscode-styled-components](https://github.com/styled-components/vscode-styled-components). 
+Any contribution, except when dealing directly with template literal objects, must be made there. 
+[See their contributions policy](https://github.com/styled-components/vscode-styled-components/blob/master/CONTRIBUTING.md).
 
 ## Troubleshooting
 
 ### There's no syntax highlighting?
 
-Syntax Highlighting is specifically made to work with `styled` so make sure your default import is `styled` and nothing else.
-
-See: https://github.com/styled-components/vscode-styled-components/issues/118#issuecomment-833007295
+Syntax Highlighting is specifically made to work with `TLO.styled`, not `TLO.set`.
 
 Secondly make sure your file is set to the right language. It should be `typescriptreact` or `javascriptreact`. Using the correct extensions (jsx, tsx) should help with this.
 

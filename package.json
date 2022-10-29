@@ -1,14 +1,21 @@
 {
-  "name": "vscode-styled-components",
-  "displayName": "vscode-styled-components",
-  "description": "Syntax highlighting for styled-components",
+  "name": "vscode-tlo-styled",
+  "displayName": "vscode-tlo-styled",
+  "description": "Syntax highlighting for TLO.styled of template-literal-object. Forked from vscode-styled-components.",
   "version": "1.7.5",
-  "publisher": "styled-components",
+  "publisher": "TJ Mora",
+  "contributors": [
+    "Graham Clark",
+    "Julien Poissonnier",
+    "GitHub", 
+    "Tobias Zimmermann",
+    "TJ Mora"
+  ],
   "icon": "logo.png",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/styled-components/vscode-styled-components.git"
+    "url": "https://github.com/tjmora/vscode-tlo-styled.git"
   },
   "main": "dist/extension.js",
   "engines": {
