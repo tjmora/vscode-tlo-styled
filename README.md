@@ -1,6 +1,6 @@
 # vscode-tlo-styled
 
-This is extension is available at the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=tjmora.vscode-tlo-styled).
+This extension is available at the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=tjmora.vscode-tlo-styled).
 
 Syntax highlighting and IntelliSense for [TLO.styled](https://github.com/tjmora/template-literal-object).
 
