@@ -2,7 +2,7 @@
   "name": "vscode-tlo-styled",
   "displayName": "vscode-tlo-styled",
   "description": "Syntax highlighting for TLO.styled of template-literal-object. Forked from vscode-styled-components.",
-  "version": "1.7.5",
+  "version": "1.0.0",
   "publisher": "TJ Mora",
   "contributors": [
     "Graham Clark",
