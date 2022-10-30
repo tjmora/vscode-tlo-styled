@@ -26,14 +26,9 @@ It should be the top result.
 
 The styled-components extension adds highlighting and IntelliSense for the template literal objects as set by TLO.styled static method in JavaScript and TypeScript. See [plugin configuration](https://github.com/Microsoft/typescript-styled-plugin#configuration) for information on configuring the linter and other language features.
 
-## Raising an issue
-
-Please check the issues list to see if it has already been raised. If it has you can vote on it with a thumbsUp emoji.
-Issues with the most votes tend to be prioritised.
-
 ## Contributing
 
-This is a minor fork of [vscode-styled-components](https://github.com/styled-components/vscode-styled-components). 
+This is a co-updating fork of [vscode-styled-components](https://github.com/styled-components/vscode-styled-components). 
 Any contribution, except when dealing directly with template literal objects, must be made there. 
 [See their contributions policy](https://github.com/styled-components/vscode-styled-components/blob/master/CONTRIBUTING.md).
 
@@ -41,7 +36,9 @@ Any contribution, except when dealing directly with template literal objects, mu
 
 ### There's no syntax highlighting?
 
-Syntax Highlighting is specifically made to work with `TLO.styled`, not `TLO.set`.
+Syntax Highlighting is specifically made to work with `TLO.styled`, not `TLO.set`, and certainly 
+not for styled-components (Use the [vscode-styled-components](https://marketplace.visualstudio.com/items?itemName=styled-components.vscode-styled-components) 
+extension for that).
 
 Secondly make sure your file is set to the right language. It should be `typescriptreact` or `javascriptreact`. Using the correct extensions (jsx, tsx) should help with this.
 
