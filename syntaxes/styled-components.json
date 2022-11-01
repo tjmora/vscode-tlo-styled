@@ -39,7 +39,7 @@
       },
       "patterns": [
         {
-          "include": "source.css.styled"
+          "include": "source.css.styled.tlo"
         }
       ]
     }

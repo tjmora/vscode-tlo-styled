@@ -1,6 +1,6 @@
 {
   "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
-  "name": "CSS (Styled Components)",
+  "name": "CSS (TLO.styled)",
   "patterns": [
     {
       "include": "#general"
@@ -1226,5 +1226,5 @@
     }
   },
 
-  "scopeName": "source.css.styled"
+  "scopeName": "source.css.styled.tlo"
 }

@@ -2,7 +2,7 @@
   "name": "vscode-tlo-styled",
   "displayName": "vscode-tlo-styled",
   "description": "Syntax highlighting for TLO.styled of template-literal-object. Forked from vscode-styled-components.",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "publisher": "tjmora",
   "contributors": [
     "Graham Clark",
@@ -40,17 +40,17 @@
   "contributes": {
     "languages": [
       {
-        "id": "source.css.styled",
+        "id": "source.css.styled.tlo",
         "aliases": [
-          "CSS (Styled Components)"
+          "CSS (TLO.styled)"
         ],
         "configuration": "./css.styled.configuration.json"
       }
     ],
     "grammars": [
       {
-        "language": "source.css.styled",
-        "scopeName": "source.css.styled",
+        "language": "source.css.styled.tlo",
+        "scopeName": "source.css.styled.tlo",
         "path": "./syntaxes/css.styled.json"
       },
       {
